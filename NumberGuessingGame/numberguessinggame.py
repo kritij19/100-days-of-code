@@ -25,6 +25,10 @@ while game_continue:
   else:
     print(f"You're right! Current score: {score}") 
   
+  # In case A and B turn out to be the same option
+  if A == B:
+    B = random.choice(data)
+  
   A_count = A['follower_count']
   B_count = B['follower_count']
   
