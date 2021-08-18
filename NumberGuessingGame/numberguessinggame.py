@@ -1,5 +1,5 @@
 import random
-from replit import clear
+#from replit import clear
 from art import logo, vs
 from game_data import data
 
@@ -14,7 +14,7 @@ def winner(A_follower_count, B_follower_count):
 game_continue = True
 score = 0
 while game_continue:
-  clear()
+  #clear()
   print(logo)
 
   # Randomly choose first two options
@@ -42,5 +42,5 @@ while game_continue:
     score += 1
   else:
     game_continue = False
-    clear()
+    #clear()
     print(f"Your guess is wrong. Your final score is {score}")
