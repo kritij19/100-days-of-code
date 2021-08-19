@@ -9,10 +9,10 @@ class QuizBrain:
     # By adding check_answer also evaluates the guess.
     def next_question(self):
         question = self.question_list[self.question_number] 
-        question_text = question.question
+        question_text = question.question # Attribute in question_model
         self.question_number += 1
         user_answer = input(f"Q{self.question_number}. {question_text} (True/False): ") 
-        self.check_answer(user_answer, question.answer)
+        self.check_answer(user_answer, question.answer) # Attribute in question_model
     
     # Checks if the quiz still has question remaining
     # Returns False if there are no questions left
