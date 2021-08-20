@@ -1,0 +1,6 @@
+The aim of this project was to make a Turtle Race:
+
+1. User places a bet on one of the colors.
+2. 6 different colored turtles move random lengths until one of them reaches the end.
+3. To identify which turtle wins
+4. To check and display if the user
