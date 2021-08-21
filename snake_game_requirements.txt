@@ -1,0 +1,5 @@
+1. Create the snake using three squares.
+2. Initially position the 3 squares one after the other.
+3. For the snake to move. The last square should follow the second last and so on.
+4. The snake should move forward unless any other command is given.
+5. Should take input from keyboard and turn accordingly. (Backward movement not allowed)
