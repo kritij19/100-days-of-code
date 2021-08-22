@@ -25,7 +25,8 @@ color_list = [(202, 164, 109), (238, 240, 245), (150, 75, 49), (223, 201, 135), 
 
 '''Making the Hirst Painting'''
 
-colormode(255)  # Has to imported so that color can be accepted as rgb
+# colormode() imported so that color can be accepted as rgb values
+colormode(255)  
 my_turtle = Turtle()
 
 my_turtle.speed('fastest')
@@ -41,7 +42,7 @@ while i < 10:
     
     my_turtle.dot(20, random.choice(color_list))
 
-    # Alternate turns right and left
+    # Turns right and left alternately.
 
     if i % 2 != 0 and i < 9:
         my_turtle.right(90)
