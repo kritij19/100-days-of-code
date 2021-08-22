@@ -22,10 +22,10 @@ for i in range(word_length):
     display += "_"
 
 while not end_of_game:
-    # guess stores the users guessed char
+    # Guess stores the users guessed char
     guess = input("Guess a letter: ").lower()
 
-    #If user has already entered the correct letter before
+    # If user has already entered the correct letter before
     if guess in display:
       print('You have already entered this letter. Make a new try')
     
@@ -46,10 +46,10 @@ while not end_of_game:
             print("You lose.")
             print(f"The word was {chosen_word}")
 
-    #Join all the elements in the list and turn it into a String.
+    # Join all the elements in the list and turn it into a String.
     print(f"{' '.join(display)}")
 
-    #Check if user has won i.e. he has guessed all letter i.e. no blanks in display.
+    # Check if user has won i.e. he has guessed all letterS i.e. no blanks in display.
     if "_" not in display:
         end_of_game = True
         print("You win.")
