@@ -83,9 +83,10 @@ while chooses_to_continue:
     choice = input("""What would you like? (espresso/ latte/ cappuccino):
 Type 'report' to get a report of remaining contents
 Type 'off' to turn it off.\n""")
-
+    
+    # Exits
     if choice == 'off':
-        chooses_to_continue = False # Exits
+        chooses_to_continue = False 
 
     elif choice == 'report':
         for resource in resources:
