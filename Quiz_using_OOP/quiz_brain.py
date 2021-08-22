@@ -1,7 +1,7 @@
 class QuizBrain:
 
     def __init__(self, question_list):
-        self.question_list = question_list #List of questions
+        self.question_list = question_list 
         self.question_number = 0
         self.score = 0
     
@@ -15,12 +15,10 @@ class QuizBrain:
         self.check_answer(user_answer, question.answer) # Attribute in question_model
     
     # Checks if the quiz still has question remaining
-    # Returns False if there are no questions left
     def still_has_questions(self):
         return self.question_number < len(self.question_list)
     
 
-    # If the answer entered by the user matches the actual answer, score is increased by 1.  
     def check_answer(self, user_answer, correct_answer):
         if user_answer.lower() == correct_answer.lower():
             print("You're answer is correct")
