@@ -5,26 +5,26 @@ my_screen = Screen()
 my_screen.setup(width = 500, height = 400)
 
 color_list = ['red', 'yellow', 'orange', 'green', 'blue','purple']
-turtle_list = [] #To hold all the turtle objects
+# To hold all the turtle objects
+turtle_list = [] 
 
 
 # Creating and positioning the 6 turtles
 
 for i in range(6):
-  turtle_list.append(Turtle(shape = 'turtle')) # Adds turtle objects to the list
+  turtle_list.append(Turtle(shape = 'turtle')) 
   turtle_list[i].penup()
   turtle_list[i].speed('fast')
-  turtle_list[i].color(color_list[i]) # Sets diff color for each of the turtles
+  # Set diff color for each of the turtles
+  turtle_list[i].color(color_list[i]) 
+  # Position the turtles
   y = -100 + 40 * i
-  turtle_list[i].goto(-230, y) # Sets the position for all the turtles
+  turtle_list[i].goto(-230, y) 
 
 
 # Prompting the user to place their bet on one of the turtles
 
 user_bet = my_screen.textinput(title = "Make your bet", prompt = "Type the color of the turtle on which you'd like to place your bet")
-
-
-# Starting the race
 
 race_is_on = False
 
@@ -37,8 +37,9 @@ while race_is_on:
     for turtle_obj in turtle_list:
 
         # Identifying the winner
+        # Ensure that the race stops once one of the turtles crosses the finish line
         if turtle_obj.xcor() > 230: 
-            race_is_on = False # Ensure that the race stops once one of the turtles crosses the finish line
+            race_is_on = False 
             if user_bet == turtle_obj.pencolor():
                 print("You win!")
             else:
