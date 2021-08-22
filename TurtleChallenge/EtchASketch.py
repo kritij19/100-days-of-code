@@ -27,7 +27,7 @@ def turtle_reset():
 
 my_screen = Screen()
 
-#Making the turtle implement the action that is intended from the keyboard.
+# Making the turtle implement the action that is intended from the keyboard.
 my_screen.listen()
 my_screen.onkey(move_forward, "w")
 my_screen.onkey(move_backward, "s")
