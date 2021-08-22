@@ -22,7 +22,8 @@ def computer_plays():
     next_move = random.choice(pick_card)
     if next_move == 0:
       computer_hand.append(random.choice(cards))
-      if 11 in computer_hand and sum(computer_hand) > 21: # Replaces 11 with 1 if sum is going over 21
+      # Replaces 11 with 1 if sum is going over 21
+      if 11 in computer_hand and sum(computer_hand) > 21: 
           computer_hand.remove(11)
           computer_hand.append(1)
 
@@ -49,7 +50,7 @@ YOU WIN :)""")
 
 def blackjack():
   
-  #chooses to continue keeps track of till when the while loop needs to run
+  # Chooses to continue keeps track of till when the while loop needs to run
   chooses_to_continue = True
   
   print(logo)
