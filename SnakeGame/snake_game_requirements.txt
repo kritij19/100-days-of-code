@@ -3,3 +3,10 @@
 3. For the snake to move. The last square should follow the second last and so on.
 4. The snake should move forward unless any other command is given.
 5. Should take input from keyboard and turn accordingly. (Backward movement not allowed)
+6. Game should get over if the snake touches its tail or collides with the wall.
+7. The turtle object is 20 * 20 in size and distances are measured from the centre of the turtle.
+8. Score should appear at the top
+9. The snake should increase in length as score increases.
+10. Food should appear in random places.(Additional functionalities: Random color, random shape)
+11. (Additional feature: Ask the user to press a certain key to start )
+12. (Additional feature: Add dangerous objects.)
