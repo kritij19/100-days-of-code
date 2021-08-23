@@ -7,8 +7,8 @@ DOWN = 270
 RIGHT = 0
 LEFT = 180
 
-'''Capable of performing the following functions:
-    1.Creating the snake
+'''Responsible for the following functionionalities:
+    1. Creating the snake
     2. Moving the snake (The snake moves forward unless interuppted)
     3. Changing the direction of the snake (The snake cannot move backward)
     4. Increasing the length of the snake as score increases.'''
