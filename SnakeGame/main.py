@@ -1,5 +1,7 @@
-from turtle import Turtle, Screen
+from turtle import Screen
 from snake import Snake
+from food import Food
+from scoreboard import Score
 import time
 
 screen = Screen()
@@ -11,6 +13,8 @@ screen.title("SNAKE GAME")
 screen.tracer(0) 
 
 snake = Snake()
+food = Food()
+score = Score()
 
 game_is_on = True
 
@@ -29,6 +33,28 @@ while game_is_on:
     screen.onkey(snake.left, "Left")
 
     # Throughout the game the snake keeps moving.
+    score.display_score()
     snake.move()
+
+    # Once snake collides, reset location of food.
+    if snake.head.distance(food) < 15:
+        food.reset_food()
+        score.increase_score()
+        snake.increase_length()
+
+    # Detect collision with wall
+    if snake.head.xcor() > 290 or snake.head.xcor() < -290 or snake.head.ycor() > 290 or snake.head.ycor() < -290:
+        print("Boundary touch")
+        game_is_on = False
+        score.game_over()
+    
+    # Detect collision with tail.
+    # Slicing since distance between head and head always < 10.
+    for turtle in snake.turtle_list[1:]:
+
+        if snake.head.distance(turtle) < 10:
+            print("Tail touch")
+            game_is_on = False
+            score.game_over()
 
 screen.exitonclick()  
