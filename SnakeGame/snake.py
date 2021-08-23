@@ -22,6 +22,7 @@ class Snake:
         
         for i in range(INITIAL_SNAKE_LENGTH):
             self.add_segment((-20 * i, 0))
+        
         self.head = turtle_list[0]
         # Update once the snake has been created 
         Screen().update()
@@ -44,12 +45,10 @@ class Snake:
     def move(self):
 
         turtle_list = self.turtle_list 
-
         for i in range(len(turtle_list) - 1, 0, -1):
             x = turtle_list[i - 1].xcor()
             y = turtle_list[i - 1].ycor()
             turtle_list[i].goto(x, y)
-
         self.head.forward(MOVE_DISTANCE)
 
     # Turning the turtle
