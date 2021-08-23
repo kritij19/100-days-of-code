@@ -8,6 +8,7 @@ ALIGNMENT = 'center'
     2. Increasing the score.
     3. Displaying Game over at the centre of the screen'''
 
+# Score is a turtle object.
 class Score(Turtle):
 
     def __init__(self):
