@@ -7,7 +7,7 @@
 6. Initially the ball moves towards the top right edge.
 7. The ball should reflect when it hits either the lower or the upper wall.
 8. Define condition to detect collision with paddle.
-9. Reflect from paddle.
+9. Reflect from paddle. (Does not reflect when hits the edge.)
 10. If the ball goes out of bound, reset to centre and move in opposite direction.
 11. Display score on both sides.
 12. Increase the score of the opposite paddle when ball goes out of bounds for one.
