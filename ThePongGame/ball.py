@@ -16,7 +16,7 @@ BALL_COLOR = 'paleturquoise'
 class Ball(Turtle):
 
     def __init__(self) :
-
+        
         super().__init__()
         self.shape('circle')
         self.color(BALL_COLOR)
@@ -27,29 +27,24 @@ class Ball(Turtle):
 
     # Increment the x and y coordinate according to the amount specified.
     def move(self):
-      
         self.setx(self.xcor() + self.x_increment)
         self.sety(self.ycor() + self.y_increment)
 
     # Inverts the direction of motion in the y direction.
-    def reflect_wall(self):
-      
+    def reflect_wall(self):      
         self.y_increment *= -1 
 
     # Inverts the direction of motion in the x direction.
-    def reflect_paddle(self):
-      
+    def reflect_paddle(self):      
         self.x_increment *= -1 
     
     # Resets ball to centre. Ball now moves towards opp paddle (inverts motion in x).
-    def reset(self):
-      
+    def reset(self):      
         self.goto(0, 0)
         self.x_increment *= -1
 
     # Inceases the speed by certain amount
-    def increase_speed(self):
-      
+    def increase_speed(self):  
         self.y_increment += SPEED_INCREASE
         self.x_increment += SPEED_INCREASE
 
