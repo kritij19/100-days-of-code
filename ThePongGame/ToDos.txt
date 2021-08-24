@@ -1,0 +1,16 @@
+
+1. Create a screen (dimensions = 600 * 800)
+2. Create paddles (dimensions = 100 * 20).
+3. Position of left paddle: (-350 , 0) and position of right paddle: (350, 0). 
+4. The right paddle moves using the up and down keys and the left paddle moves using the w and s keys.
+5. Make the ball (circle of radius 20).
+6. Initially the ball moves towards the top right edge.
+7. The ball should reflect when it hits either the lower or the upper wall.
+8. Define condition to detect collision with paddle.
+9. Reflect from paddle.
+10. If the ball goes out of bound, reset to centre and move in opposite direction.
+11. Display score on both sides.
+12. Increase the score of the opposite paddle when ball goes out of bounds for one.
+13. Increase the speed of the ball on each score increase.
+13. (Additional Functionality: Levels - Decrease paddle size)
+14. (Additional Functionality: Press to start each level)
