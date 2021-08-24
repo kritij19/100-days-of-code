@@ -46,10 +46,11 @@ while game_is_on:
 
     # Detect collision with paddle
     # Absolute difference between y coordinates can hit either above or below the middle of the board. 
-    if right_paddle.xcor() - ball.xcor() <= 20 and abs(ball.ycor() - right_paddle.ycor())  <= 50:
+    # Not reflected if hits the edge. Should hit the front.
+    if right_paddle.xcor() - ball.xcor() <= 20 and right_paddle.xcor() - ball.xcor() >= 15 and abs(ball.ycor() - right_paddle.ycor())  <= 50:
         ball.reflect_paddle()
 
-    if ball.xcor() - left_paddle.xcor() <= 20 and abs(ball.ycor() - left_paddle.ycor())  <= 50:
+    if ball.xcor() - left_paddle.xcor() <= 20 and ball.xcor() - left_paddle.xcor() >= 15 and  abs(ball.ycor() - left_paddle.ycor())  <= 50:
         ball.reflect_paddle()
 
     # If right paddle misses
