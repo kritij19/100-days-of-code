@@ -1,0 +1,14 @@
+TODOS:
+1. Create screen (600 * 600)
+2. Make turtle. Should start at bottom facing north.
+3. The turtle should move when the Up key is pressed.
+4. Cars of random color should randomly go from left to right.
+5. Detect collision between the car and the turtle.
+6. Display level at the top left side of the screen.
+7. If the turtle collides with the car. Display game over at the bottom.
+8. On collision, all cars should stop.
+9. Detect if turtle has reached the other end. If reached, reset and increase car speed now.
+
+PROBLEMS:
+1. Detecting collision with car. Unable to find the right condition. Current condition has anomalies.
+   Anomalies mostly due to the unsymmeteric shape of turtle.
