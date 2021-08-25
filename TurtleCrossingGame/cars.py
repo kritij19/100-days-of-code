@@ -19,7 +19,6 @@ def random_rgb():
 
 class Cars(Turtle):
 
-
     def __init__(self):
         super().__init__()
         self.hideturtle()
