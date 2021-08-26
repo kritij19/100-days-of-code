@@ -14,3 +14,4 @@ List of projects:
 9. Snake Game - Popular snake game. (Day 20 + 21)
 10. Pong Game - 2 paddles, 1 ball. (Day 22) 
 11. Turtle Crossing Game - Random cars. Turtle has to cross. (Day 23)
+12. U.S States Game - User has to name as many US states as he can. States appear on the map. Returns CSV of missed states at the end. (Day 25) 
