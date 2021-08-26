@@ -1,0 +1,14 @@
+Todos:
+1. Make a turtle object in the state of image.
+2. (Already done: Find the coordinates of all the states on the map. Found x and y using the onclick method.)
+3. Make a list of states from CSV.
+4. Take user input.
+5. If user input in states list, state name should appear on the state.
+6. Show number of states guessed on the top of the input prompt.
+7. If user types 'exit'. CSV of missed states created.
+8. Game over if all 50 states guessed.
+
+
+Extended usage of similar procedure:
+1. Guess all animals on screen
+2. Human anatomy
