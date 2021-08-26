@@ -42,11 +42,11 @@ while game_is_on:
         score.increase_score()
         snake.increase_length()
 
-    # Detect collision with wall
+    # Detect collision with wall. 
     if snake.head.xcor() > 290 or snake.head.xcor() < -290 or snake.head.ycor() > 290 or snake.head.ycor() < -290:
         print("Boundary touch")
-        game_is_on = False
-        score.game_over()
+        score.reset()
+        snake.reset()
     
     # Detect collision with tail.
     # Slicing since distance between head and head always < 10.
@@ -54,7 +54,7 @@ while game_is_on:
 
         if snake.head.distance(turtle) < 10:
             print("Tail touch")
-            game_is_on = False
-            score.game_over()
+            score.reset()
+            snake.reset()
 
 screen.exitonclick()  
