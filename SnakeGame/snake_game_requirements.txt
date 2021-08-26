@@ -8,5 +8,7 @@
 8. Score should appear at the top
 9. The snake should increase in length as score increases.
 10. Food should appear in random places.(Additional functionalities: Random color, random shape)
-11. (Additional feature: Ask the user to press a certain key to start )
-12. (Additional feature: Add dangerous objects.)
+11. Maintaining a track of the high score.
+12. As soon as snake hits tail or wall. Game restarts. Score reset.
+13. (Additional feature: Ask the user to press a certain key to start )
+14. (Additional feature: Add dangerous objects.)
