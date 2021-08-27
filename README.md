@@ -15,4 +15,4 @@ List of projects:
 10. Pong Game - 2 paddles, 1 ball. (Day 22) 
 11. Turtle Crossing Game - Random cars. Turtle has to cross. (Day 23)
 12. U.S States Game - User has to name as many US states as he can. States appear on the map. Returns CSV of missed states at the end. (Day 25) 
-13. NATOPhoneticProject - User enters a word. Returns a list of words starting with the alphabets of the word (NATO Phonetic Alphabets). (Day 26)
+13. NATO Alphabet project - User enters a word. Returns a list of words starting with the alphabets of the word (NATO Phonetic Alphabets). (Day 26)
