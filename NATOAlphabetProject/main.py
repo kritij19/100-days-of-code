@@ -1,7 +1,7 @@
 
 import pandas as pd
 
-#TODO 1. Create a dictionary in this format:
+#TODO 1. Create a dictionary of {letter: word} from csv:
 
 data = pd.read_csv(r'NATO-alphabet-start\nato_phonetic_alphabet.csv')
 
