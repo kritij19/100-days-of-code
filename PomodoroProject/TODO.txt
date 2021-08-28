@@ -1,0 +1,20 @@
+TODOs: 
+1. Make a Tk object in the shape of the image.
+2. Display time in the format '00:00'. (Canvas object: Displayed over tomato image)
+3. Make a 'Timer' label 
+4. Make and position a 'Start' and 'Reset' button.
+5. Make a checkmark label.
+6. Define a method to increment the time. 
+   (Used .after() method to call the countdown func after every 1s with decreased input everytime)
+   (When time in seconds goes to single digits it should be displayed as min:05 not min:5)
+7. Mechanism to set timer in each cycle.
+   To 25 min during work, 5 min during short break and 20 min during long break.
+   (W, SB, W, SB, W, SB, W, LB)
+8. Define method to reset timer. Stop current clock object.Reset all variables to initial state.
+9. Method to display a checkmark after each work cycle.
+
+
+Things to be changed after each cycle:
+1. Timer reset
+2. Task label
+3. Check mark string
