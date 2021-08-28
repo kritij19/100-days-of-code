@@ -17,3 +17,4 @@ List of projects:
 12. U.S States Game - User has to name as many US states as he can. States appear on the map. Returns CSV of missed states at the end. (Day 25) 
 13. NATO Alphabet project - User enters a word. Returns a list of words starting with the alphabets of the word (NATO Phonetic Alphabets). (Day 26)
 14. Miles to Km GUI- Interactive converterm made using tkinter. (Day 27)
+15. Pomodoro Project- Sets a timer that implements the pomodoro tchnique. (Day 28)
