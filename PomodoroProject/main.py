@@ -2,7 +2,10 @@
                         25 min work- 5 min break
                         25 min work- 5 min break
                         25 min work- 5 min break
-                        25 min work- 20 min break'''
+                        25 min work- 20 min break
+   Two buttons: Start and Reset
+   Timer appears on tomato image
+   Label on top changes according to task. Initially reads "Timer"'''
 
 from tkinter import *
 
