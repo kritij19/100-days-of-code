@@ -1,0 +1,14 @@
+Objectives:
+1. Takes website, Email/username and password input. (Pswd can be entered or randomly generated)
+2. Email pre-populated with default email.
+3. Button to generate password. Once clicked automatically fills the text box.
+4. Randomly generated pswd is automatically copied to clipboard.
+5. Warning when one of the fields empty.
+6. Once user clicks on the Add button data added to a json file. If file exists updates otherwise writes.
+7. Warning when one of the fields empty.
+8. Search button which when clicked dislays email and pswd for corresponding website if its data exists in json file.
+9. Shows a messagebox if data for website does not exist.
+
+Improvements:
+1. If data for the same website re-entered. Ask user if they want to overwrite the previous data. If yes then replace.
+2. On adding, show notification added successfully.
