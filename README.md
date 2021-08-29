@@ -18,3 +18,4 @@ List of projects:
 13. NATO Alphabet project - User enters a word. Returns a list of words starting with the alphabets of the word (NATO Phonetic Alphabets). (Day 26)
 14. Miles to Km GUI- Interactive converterm made using tkinter. (Day 27)
 15. Pomodoro Project- Sets a timer that implements the pomodoro technique. four 25 min work - three 5 min break- one 20 min break(Day 28)
+16. Password Manager- GUI to enter and store associated email-id and password for a website. Can generate random passwords and copy to clipboard. Allows to search for previous data by entering websit name. Made using Tkinter. (Day 29 + 30)
