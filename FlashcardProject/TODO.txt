@@ -1,0 +1,17 @@
+TODO:
+1. Make canvas object for both front and back of the flashcard.
+2. The language and word should appear on the flashcard
+3. Add text on the canvas object (language, word)
+4. Add the tick and cross button at the bottom
+5. Read the csv and convert data to a dictionary.
+6. When either of the buttons is clicked, dictionary generates a random word and display on flash card.
+7. After 3 seconds automatically card turns.
+8. On the other card the english translation of the word is shown.
+9. Make a csv to store words yet to learn (Those for which tick hasn't been clicked.)
+10. When tick button is clicked remove that word from list of words to learn. Update csv. Show new flashcard with french word. 
+11. Data taken from words_to_learn.csv if it does not exist then from french_words.csv (During first run).
+
+ADDITIONS:
+1. English to French option
+2. Start button
+3. Score (x/100)
