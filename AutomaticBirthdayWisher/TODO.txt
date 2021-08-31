@@ -1,0 +1,9 @@
+TODO:
+1. Update the birthdays.csv
+2. Check if today matches a birthday in the birthdays.csv
+3. If step 2 is true, pick a random letter from letter templates and 
+4. Replace the [NAME] with the person's actual name from birthdays.csv and 'Angela' with your sender's (your) name.
+5. Send the letter generated in step 3 to that person's email address.
+
+ADDITIONS:
+1. Host it on cloud (Pythonanywhere) and schedule it to run everyday at a given time.
