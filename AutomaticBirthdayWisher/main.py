@@ -4,9 +4,9 @@ import smtplib
 import random
 
 smtp_address = "smtp.gmail.com"     # for gmail
-my_email = "hellotesting739@gmail.com" # Senders
-pswd = "testing@123"
- # Receivers
+my_email = #### # Senders
+pswd = ####
+ 
 
 letters_path_list = ['letter_templates\letter_1.txt', 'letter_templates\letter_2.txt', 'letter_templates\letter_3.txt'] 
 
