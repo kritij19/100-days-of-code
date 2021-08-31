@@ -5,7 +5,7 @@ Python projects made during the 100 days of Code. Some shorter challenges or pro
 List of projects:
 1. **Hangman** - _(Day 7)_
 2. **Black Jack** - Card Game-  _(Day 11)_
-3. **Number Guessing Game- Computer chooses a number.User has to guess. 2 levels. _(Day 12)_
+3. **Number Guessing Game**- Computer chooses a number.User has to guess. 2 levels. _(Day 12)_
 4. **Higher Lower Game** - Guess who has more followers between A and B. If guesses correctly B become A and new B is chosen randomly.  *(Day 14)*
 5. **Coffee Machine Project** - Imitates a coffee machine. *(Day 15)*
 6. **Quiz** - 20 T / F Questions using OOP. *(Day 17)*
@@ -20,3 +20,5 @@ List of projects:
 15. **Pomodoro Project**- Sets a timer that implements the pomodoro technique. four 25 min work - three 5 min break- one 20 min break *(Day 28)*
 16. **Password Manager**- GUI to enter and store email-id and password for a website. Can generate random passwords and copy to clipboard. Allows searching for previous data. Made using Tkinter. Data stored in JSON file.*(Day 29 + 30)*
 17. **FlashCard Project**- GUI to help learn a language (Currently French).Consists of 100 flashcards with a french word on one side and english translation on the other.The card automatically flips in 3 seconds. If the user gets it right they can click on the tick mark and the card will be removed from deck. *(Day 31)*
+18. **Automatic Burthday Wisher**- Sending mails through python. *(Day 32)*
+19. **ISS Overhead Project**- Making API calls. *(Day 33)*
