@@ -1,0 +1,7 @@
+1. Identify your longitude and latitude
+2. Using the ISS API determine the current long and lat in appropriate format (float).
+3. Determine current time.
+4. Using sunrise sunset API determine the time of sunset and sunrise at your location.
+5. ISS will only be visible in the dark (Before sunrise or after sunset). By comparing with current time determine if it'll be dark.
+6. If ISS is near (in +- 5 degree of longitude and latitude) and it is dark, send a mail to the specified mail.
+7. The loop should run every one minute to check if the conditions are satisfied.
