@@ -22,3 +22,4 @@ List of projects:
 17. **FlashCard Project**- GUI to help learn a language (Currently French).Consists of 100 flashcards with a french word on one side and english translation on the other.The card automatically flips in 3 seconds. If the user gets it right they can click on the tick mark and the card will be removed from deck. *(Day 31)*
 18. **Automatic Burthday Wisher**- Sending mails through python. *(Day 32)*
 19. **ISS Overhead Project**- Making API calls. *(Day 33)*
+20. **Quizzler App**- Quiz using classes. Questions extracted using OpenTriviaDatabase API. UI using Tkinter. *(Day 34)*
