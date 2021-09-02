@@ -1,0 +1,16 @@
+OBJECTIVE:
+Build a program which notifies the user if its going to rain in the next 12 hours.
+
+TODO:
+1. Find longitude latitude of your location.
+2. Figure out Open Weather map API endpoints and parameters. 
+3. Figure out Twilio account_sid and auth_token.
+4. Fetch the 48 hour weather data.
+5. Check if it will rain in the next 12 hours (weather code < 700)
+6. If its going to rain at any time in the next 24 hrs, send a message using twilio.
+7. Host the program online so that it is run at a certain time daily.
+
+THINGS LEARNT:
+1. Usage of API keys
+2. Enviroment variables
+3. How to send text message through the internet
