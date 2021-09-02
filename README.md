@@ -20,7 +20,7 @@ List of projects:
 15. **Pomodoro Project**- Sets a timer that implements the pomodoro technique. four 25 min work - three 5 min break- one 20 min break *(Day 28)*
 16. **Password Manager**- GUI to enter and store email-id and password for a website. Can generate random passwords and copy to clipboard. Allows searching for previous data. Made using Tkinter. Data stored in JSON file.*(Day 29 + 30)*
 17. **FlashCard Project**- GUI to help learn a language (Currently French).Consists of 100 flashcards with a french word on one side and english translation on the other.The card automatically flips in 3 seconds. If the user gets it right they can click on the tick mark and the card will be removed from deck. *(Day 31)*
-18. **Automatic Burthday Wisher**- Sending mails through python. *(Day 32)*
-19. **ISS Overhead Project**- Making API calls. *(Day 33)*
+18. **Automatic Birthday Wisher**- Automatically sends a mail with a birthday message. Birthday's and recipients email ids stored in csv. *(Day 32)*
+19. **ISS Overhead Project**- Sends a mail to the user if ISS is near your location in night (That's when it's visible) *(Day 33)*
 20. **Quizzler App**- Quiz using OOP. Questions extracted from OpenTriviaDatabase API. GUI made using Tkinter. *(Day 34)*
 21. **Automated Rain Alert Project**- Sends the user a text message if its going to rain in the next 12 hrs. Weather data from the Open Weather Map. Sends text message via twilio. *(Day 35)*
