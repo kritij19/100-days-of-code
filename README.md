@@ -23,3 +23,4 @@ List of projects:
 18. **Automatic Burthday Wisher**- Sending mails through python. *(Day 32)*
 19. **ISS Overhead Project**- Making API calls. *(Day 33)*
 20. **Quizzler App**- Quiz using OOP. Questions extracted from OpenTriviaDatabase API. GUI made using Tkinter. *(Day 34)*
+21. **Automated Rain Alert Project**- Sends the user a text message if its going to rain in the next 12 hrs. Weather data from the Open Weather Map. Sends text message via twilio. *(Day 35)*
