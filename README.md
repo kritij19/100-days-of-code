@@ -24,3 +24,4 @@ List of projects:
 19. **ISS Overhead Project**- Sends a mail to the user if ISS is near your location in night (That's when it's visible) *(Day 33)*
 20. **Quizzler App**- Quiz using OOP. Questions extracted from OpenTriviaDatabase API. GUI made using Tkinter. *(Day 34)*
 21. **Automated Rain Alert Project**- Sends the user a text message if its going to rain in the next 12 hrs. Weather data from the Open Weather Map. Sends text message via twilio. *(Day 35)*
+22. **Stock Trading News Alert project** - *(Day 36)*
