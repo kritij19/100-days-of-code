@@ -1,0 +1,5 @@
+OBJECTIVE:
+Build a program that notifies you with the relevant news if the stock of your interest has a significant change in value.
+1. Check for significant change
+2. Check news that might have caused this
+3. Send a message with this update.
