@@ -7,10 +7,10 @@ COMPANY_NAME = "Tesla"
 STOCK_API_ENDPOINT = 'https://www.alphavantage.co/query'
 STOCK_API_KEY = '7NV0E4TZQI3BJG2I'
 NEWS_API_ENDPOINT = 'https://newsapi.org/v2/everything'
-NEWS_API_KEY = '1418f5cd9a8b4844a265976318f8f5a1'
-TWILIO_ACCOUNT_SID = 'AC81a9c9ff58b4a393d20bd56f4ef16a69'
-TWILIO_AUTH_TOKEN = 'f4efc13f34a3cb14843982eb031ba93f'
-receivers_num = '+919818264418'
+NEWS_API_KEY = #######
+TWILIO_ACCOUNT_SID = #######
+TWILIO_AUTH_TOKEN = #######
+receivers_num = #######
 threshold_percentage_change = 5
 symbol = None
 
