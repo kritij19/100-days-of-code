@@ -1,0 +1,12 @@
+TODOs:
+1. Creating a user at pixela using the POST method.
+2. Creating a graph.
+3. Formatting the current date to the required format.
+4. Posting a pixel with data inputted by the user.
+5. Updating a pixel using the PUT command.
+6. Deleting a pixel using DELETE command.
+
+
+ADDITIONS:
+1. Make a UI to ask user for daily input. Provide updated link as ouput.
+2. Give an option to update a pixel with new value or delete a pixel.
