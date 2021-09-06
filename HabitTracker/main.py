@@ -4,9 +4,9 @@ import requests
 from datetime import datetime
 
 USERNAME = 'kritij19'
-TOKEN = 'vhdfhkhv3ewjfwkjef'
+TOKEN = #######
 GRAPH_NAME = 'Calorie Intake'
-GRAPH_ID = 'dvcdfvfd434hj'
+GRAPH_ID = #######
 
 pixela_endpoint = 'https://pixe.la/v1/users'
 
