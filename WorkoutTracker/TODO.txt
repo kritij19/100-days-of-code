@@ -1,0 +1,12 @@
+TODO:
+1. Setup Nutritionix account and get API ID and KEY.
+2. Using the Nutritionix API Documentation, figure out how to print the exercise stats for a plain text input.
+3. Set up a sheety account.
+4. Figure out a way to generate a new row of data for each exercise, uding data from the nutritionix response.
+5. Authenticate Sheety API.
+6. Set sensetive variables as environment variables.
+
+ADDITIONS:
+1. Create an interface where user can get input text and receive the number of calories burnt.
+2. Using data from google sheet graph can be created.
+3. Vraying stats for various activities can be shown.
