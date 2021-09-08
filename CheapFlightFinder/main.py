@@ -12,20 +12,16 @@ notification_manager = NotificationManager()
 # Accessing data from prices sheet
 sheet_data = datamanager.data['prices']
 
-
 for row in sheet_data:
-
+    
     # Replaces all empty IATA codes with actual value in spreadsheet
-    if len(row['iataCode']) == 0:
-        
+    if len(row['iataCode']) == 0:   
         row['iataCode'] = flightsearch.iata_updater(row['city'])    # Updates value of IATA code in dictionary
         datamanager.update_iatacode(row['id'], row)     # Updates in google sheet
 
     # If a flight cheaper than minimum set price found. Sends mail.
     if flightsearch.flightsearcher(row['iataCode'], row['lowestPrice']):
-
         mail_subject = F"{row['city'].title()} flight price drop alert!"
-
         mail_body = f"""We have found an amazing deal for you!
 
 ONLY {flightsearch.price} {flightsearch.currency} to Travel from {flightsearch.departure_city} ({flightsearch.departure_airport_code}) to {flightsearch.destination_city} ({flightsearch.destination_airport_code}) at just  between {flightsearch.trip_starting_date} and {flightsearch.trip_end_date}
@@ -36,14 +32,11 @@ https://www.ixigo.com/search/result/flight?sort-type=fare&return-sort-type=fare&
 Get your hands on this steal ASAP! 
 
 Regards,
-Fly High Club"""
-        
+Fly High Club"""        
         notification_manager.send_mail(subject = mail_subject, body = mail_body)
-        print(f"{row['city']} mail sent") 
+        print(f"{row['city']} mail sent")         
     else:
         print(f"{row['city']} skipped")
 
-
-
-## pprint() makes it easy to view data
+## pprint(): pretty print makes it easy to view data
 # pprint(f"\n\nFrom main.py: {sheet_data}") 
