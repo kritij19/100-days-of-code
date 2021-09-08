@@ -27,3 +27,4 @@ List of projects:
 22. **Stock Trading News Alert project** - Sends you a text message with 3 latest headlines and percentage change in price in case there is a significant change in stock price within the last two days *(Day 36)*
 23. **Habit Tracker**- Tracks a habit and creates a graph using pixela API. User has to input calorie intake daily. *(Day 37)*
 24. **Workout Tracker**- User inputs their daily workout in text format. Stats for each activity (duration, calories) stored in a google sheet. Uses Nutritionix API and Sheety API. *(Day 38)*
+25. **Cheap Flight Finder**- Get's members to sign up. Sends mail to members if price of any of the locations fall below the lowest price. Uses Sheety API and TEQUILA search and location API *(Day 39 + 40)*
