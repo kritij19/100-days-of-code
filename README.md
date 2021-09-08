@@ -24,7 +24,7 @@ List of projects:
 19. **ISS Overhead Project**- Sends a mail to the user to look up if ISS is near your location in night (That's when it's visible) *(Day 33)*
 20. **Quizzler App**- Quiz using OOP. Questions extracted from OpenTriviaDatabase API. GUI made using Tkinter. *(Day 34)*
 21. **Automated Rain Alert Project**- Sends the user a text message if its going to rain in the next 12 hrs. Weather data from the Open Weather Map. Sends text message via twilio. *(Day 35)*
-22. **Stock Trading News Alert project** - Sends you a text message with 3 latest headlines and percentage change in price in case there is a significant change in stock price within the last two days *(Day 36)*
-23. **Habit Tracker**- Tracks a habit and creates a graph using pixela API. User has to input calorie intake daily. *(Day 37)*
+22. **Stock Trading News Alert project** - Sends you a text message with 3 latest headlines and percentage change in price in case there is a significant change in stock price in the last two days. *(Day 36)*
+23. **Habit Tracker**- Tracks a habit and creates a pixe; graph using pixela API. User has to input calorie intake daily. *(Day 37)*
 24. **Workout Tracker**- User inputs their day's workout routine in text format (In terms of duration or distance covered). Stats for each activity (duration, calories) stored in a google sheet. Uses Nutritionix API and Sheety API. *(Day 38)*
 25. **Cheap Flight Finder**- Get's members to sign up. Sends mail to members if price of any of the locations fall below the lowest price listed in spreadsheet. Uses Sheety API and TEQUILA search and location API *(Day 39 + 40)*
