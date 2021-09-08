@@ -50,5 +50,4 @@ if current_hr > sunset_hr:
                 from_addr = my_email,
                 to_addrs = receivers_email,
                 msg = "subject: LOOK UP!\n\n The ISS is near. LOOK UP!"
-
             )
