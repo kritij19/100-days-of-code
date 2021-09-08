@@ -7,6 +7,6 @@ TODOs:
 6. Deleting a pixel using DELETE command.
 
 
-ADDITIONS:
+FUTURE ADDITIONS:
 1. Make a UI to ask user for daily input. Provide updated link as ouput.
 2. Give an option to update a pixel with new value or delete a pixel.
