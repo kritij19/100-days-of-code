@@ -3,7 +3,7 @@
 import requests
 from datetime import datetime
 
-USERNAME = 'kritij19'
+USERNAME = ######
 TOKEN = #######
 GRAPH_NAME = 'Calorie Intake'
 GRAPH_ID = #######
