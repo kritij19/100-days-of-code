@@ -12,7 +12,7 @@ import datetime as dt
 import os
 
 # Nutritionix API to Naturally Process text inputted by the user
-NUTRITIONIX_API_ID = '0c06d80c'
+NUTRITIONIX_API_ID = ######
 NUTRITIONIX_API_KEY = os.environ.get('NUTRITIONIX_API_KEY')
 
 #### Posting exercise information
