@@ -28,3 +28,4 @@ List of projects:
 23. **Habit Tracker**- Tracks a habit and creates a pixe; graph using pixela API. User has to input calorie intake daily. *(Day 37)*
 24. **Workout Tracker**- User inputs their day's workout routine in text format (In terms of duration or distance covered). Stats for each activity (duration, calories) stored in a google sheet. Uses Nutritionix API and Sheety API. *(Day 38)*
 25. **Cheap Flight Finder**- Get's members to sign up. Sends mail to members if price of any of the locations fall below the lowest price listed in spreadsheet. Uses Sheety API and TEQUILA search and location API *(Day 39 + 40)*
+26. **My Personal Site**- Uses basic HTML and CSS. Hosted on github pages.*(Day 42 +43)*
