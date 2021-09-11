@@ -1,0 +1,63 @@
+/* EXTERNAL CSS */
+/* Holds  styling information for all the pages*/
+
+/* --------------------------------------TAG SELECTORS----------------------------------------------------------- */
+
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(87, 119, 116);
+}
+
+hr {
+    border: 0;
+    border-top: 1px rgb(255, 255, 255);
+    border-style: solid;
+    width: 98%;
+}
+
+h1 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(34, 70, 70);
+}
+
+h3 {
+    background-color: rgb(223, 235, 235);
+    color: rgb(8, 71, 71);
+}
+
+/* --------------------------------------------CLASS SELECTORS----------------------------------------------------------- */
+/* Specific styling */
+
+.name_heading {
+    background-color: rgb(255, 255, 255);
+    color: rgb(34, 70, 70);
+}
+
+.introduction {
+    /* background-color: white; */
+    color: rgb(153, 173, 171);
+}
+
+.circular {
+    border-radius: 100%;
+}
+
+.font {
+    font-size: 35px;
+    font-family: Georgia, serif;
+}
+
+/* Hover pseudo class
+What attributes to change when hovered over that property eg to change background of image when hovered over it
+prop: hover {
+
+}
+*/
+
+/* --------------------------------------------ID SELECTORS----------------------------------------------------------- */
+
+/* 
+#id_name {
+
+}
+*/
