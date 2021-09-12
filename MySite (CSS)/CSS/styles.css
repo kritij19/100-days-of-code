@@ -1,0 +1,104 @@
+/* body {
+    background-color: blue;
+} */
+
+/* padding: adds spaces to all sides of the content. Doesn't bpadd background image or color.
+   margin: Adds a margin around the whole block
+   border: Adds a border along all sides
+   padding and border increases size
+ */
+
+body {
+    margin: 0px;
+    text-align: center;
+}
+
+
+
+h1 {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #2b3f3d;
+
+}
+
+h4 {
+    margin-top: 3px;
+    font-family: 'Cedarville Cursive', cursive;
+    color: rgb(156, 156, 156);
+    font-size: 25px;
+
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.text {
+    position: relative;
+    top: 120px;
+    padding-bottom: 60px;
+    padding-top: 10px;
+}
+
+.cs {
+    font-style: italic;
+}
+
+/* Taking the clouds out of the flow so that the mountain can be centred and their positioning can be managed independently. */
+.topcontainer {
+    background-color: #D3F6F3;
+    margin: 0;
+    padding: 40px;
+    padding-bottom: 0;
+    position: relative
+}
+
+.middlecontainer {
+    padding: 20px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 350px;
+    top: 260px;
+
+}
+
+.top-cloud {
+    position: absolute;
+    right: 400px;
+    top: 60px;
+}
+
+.mountain {
+    padding-top: 35px;
+}
+
+.myimage {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+
+}
+
+.artimage {
+    height: 200px;
+    width: 200px;
+}
+
+.binaryimage {
+
+    height: 200px;
+    width: 200px;
+}
