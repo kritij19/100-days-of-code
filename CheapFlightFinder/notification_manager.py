@@ -7,9 +7,9 @@ class NotificationManager:
 
     def __init__(self):
         self.smtp_address = "smtp.gmail.com"
-        self.senders_email = "hellotesting739@gmail.com"
-        self.password = "testing@123"
-        self.get_endpoint = "https://api.sheety.co/133f361117e440af40d0749b9d387cd6/flightDeals/users"
+        self.senders_email = ####
+        self.password = ####
+        self.get_endpoint = #####
         
 
     def send_mail(self, subject: str, body: str):
