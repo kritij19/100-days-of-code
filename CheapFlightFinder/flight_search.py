@@ -9,7 +9,7 @@ CURRENCY = "GBP"
 
 # Credentials for KIWI api.
 location_endpoint = 'https://tequila-api.location.com/locations/query'
-kiwi_api_key = 'pbV8ltlgKbWQq_ft5e-hVJs04J2VI-v5' ###
+kiwi_api_key =  ####
 
 search_endpoint = 'https://tequila-api.kiwi.com/v2/search'
 
