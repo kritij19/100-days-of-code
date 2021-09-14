@@ -1,0 +1,69 @@
+OBJECTIVE: 
+
+To make a program which sends you a mail when prices of flights to any of the places mentioned by the user in a spreadsheet fall below the minimum price
+set by user in the sheet. Flight deals are checked from the next day uptill the next 6 months.
+
+EXTERNAL RESOURCES: 
+
+1. Flight deal spreadsheet (Columns: city, IATA code, price)
+2. Sheety API
+3. Tequila Location API (for AITA code)
+4. Tequila Search API (for flight deals)
+5. (Twilio - For msgs)
+
+
+PROGRAM REQUIREMENTS:
+
+1. Use the Flight Search and Sheety API to populate your Google Sheet with International Air Transport Association (IATA) codes for each city. 
+(Most of the cities in the sheet include multiple airports, you want the city code).
+
+2. Use the Flight Search API to check for the cheapest flights from tomorrow to 6 months later for all the cities in the Google Sheet.
+
+3. If the price is lower than the lowest price listed in the Google Sheet then send a mail using SMTP/ an SMS to your own number with the Twilio API.
+
+4. The message should include the departure airport IATA code, destination airport IATA code, departure city, destination city, flight price and dates. e.g.
+
+TODOS:
+
+1. Reading and writing data into google sheet using sheety.
+    1. Make a copy of the flight deal sheet. (To get cheapest fair info 'https://www.faredetective.com/farehistory/')
+    2. Get data using Sheety in the data_manager sheet.
+    3. Access data for the 'prices' sheet in the main.py file.
+    4. Put "testing" in all the places where IATA code is empty in the dictionary.
+    5. Update spread sheet with new IATA code values.
+
+2. Getting IATA codes using Kiwi Partners API.
+    1. Delete the "TESTING" values in the Google sheet again. Our code thus far only writes to the Google sheet if the cells are empty.
+    2. Using KIWI API update IATA codes in flightsearch.py.
+    3. Using updated dictionary, update google sheet.
+
+3. Search for the flights
+    1. Set departure city, departure city code etc as attributes of the flight search class
+    2. Set search dates from tommorow till 6 months from now. (Assume month = 30 days)
+    3. Using KIWI SEARCH API. Search for the flight prices from London (LON) to all the destinations in the Google Sheet. 
+    (Conditions: We are only looking for direct flights. 
+    We're also looking for round trips that return between 7 and 28 days in length. 
+    The currency of the price we get back should be in GBP.)
+    4. Some flights might not be functional. Hence the API will return and empty list. Handle this exception.
+
+4. If flight is cheap, send mail with details.
+    1. Check if the price of the flight is cheaper than the minimum threshold, if yes update all attributes of flightsearch to values corresponding to the trip.
+    (Arrival and departure Airport code, price and trip start and end date)
+    2. If condition satisfied, send mail with details.
+
+5. Create customer signup.
+    1. Make users register through on repl.it (Users can access program through link)
+    2. Add users sheet to the spreadsheet.
+    3. Input details through repl.it
+    4. POST details to the users sheet using Sheety.
+
+6. Send mails to members if deal found
+    1. Update notification to get email ids of members form spreadsheet.
+    2. Add the link to the flight tickets in the body 
+
+
+ADDITIONS:
+1. Departure city can be changed to local city.
+2. Currency can be chnaged to local currency.
+3. Extended - trip planner - Suggest hotels in the locations- Itenary planner
+
