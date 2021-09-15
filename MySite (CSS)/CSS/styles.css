@@ -13,8 +13,6 @@ body {
     text-align: center;
 }
 
-
-
 h1 {
     font-size: 40px;
     font-family: 'Montserrat', sans-serif;
@@ -43,6 +41,11 @@ p {
     font-family: 'Montserrat', sans-serif;
 }
 
+a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
 
 .text {
     position: relative;
@@ -57,15 +60,33 @@ p {
 
 /* Taking the clouds out of the flow so that the mountain can be centred and their positioning can be managed independently. */
 .topcontainer {
-    background-color: #D3F6F3;
+    background-color: #c0f7f2;
     margin: 0;
     padding: 40px;
-    padding-bottom: 0;
+    padding-bottom: 0px;
     position: relative
 }
 
 .middlecontainer {
     padding: 20px;
+}
+
+.bottomcontainer {
+    background-color: #c0f7f2;
+    margin: 0;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.profile {
+    padding: 20px;
+
+}
+
+.contact-me {
+    padding: 20px;
+
 }
 
 .bottom-cloud {
@@ -100,4 +121,56 @@ p {
 .binaryimage {
     height: 200px;
     width: 200px;
+}
+
+.BUTTON_MOO {
+    background: #56b6ae;
+    background-image: -webkit-linear-gradient(top, #56b6ae, #0c867c);
+    background-image: -moz-linear-gradient(top, #56b6ae, #0c867c);
+    background-image: -ms-linear-gradient(top, #56b6ae, #0c867c);
+    background-image: -o-linear-gradient(top, #56b6ae, #0c867c);
+    background-image: -webkit-gradient(to bottom, #56b6ae, #0c867c);
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 9px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.BUTTON_MOO:hover {
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.footer-link {
+    padding-inline: 10px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.footer-link:hover {
+    color: rgb(135, 151, 149);
+}
+
+.footer {
+    font-size: small;
+    color: black;
 }
