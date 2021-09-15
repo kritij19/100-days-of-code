@@ -1,12 +1,3 @@
-/* body {
-    background-color: blue;
-} */
-
-/* padding: adds spaces to all sides of the content. Doesn't bpadd background image or color.
-   margin: Adds a margin around the whole block
-   border: Adds a border along all sides
-   padding and border increases size
- */
 
 body {
     margin: 0px;
@@ -58,7 +49,6 @@ a {
     font-style: italic;
 }
 
-/* Taking the clouds out of the flow so that the mountain can be centred and their positioning can be managed independently. */
 .topcontainer {
     background-color: #c0f7f2;
     margin: 0;
@@ -89,11 +79,11 @@ a {
 
 }
 
+/* Taking the clouds out of the flow so that the mountain can be centred and their positioning can be managed independently. */
 .bottom-cloud {
     position: absolute;
     left: 350px;
     top: 260px;
-
 }
 
 .top-cloud {
@@ -123,6 +113,8 @@ a {
     width: 200px;
 }
 
+/* Contact Me button
+Made using: https://cssbuttoncreator.com/ */
 .BUTTON_MOO {
     background: #56b6ae;
     background-image: -webkit-linear-gradient(top, #56b6ae, #0c867c);
