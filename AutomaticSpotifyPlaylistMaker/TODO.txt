@@ -4,7 +4,7 @@ OBJECTIVES:
 2. Search billboard for the top 100 songs on that day.
 3. Make a playlist on spotofy and add the songs to the playlist.
 
-TODO:
+TODOs:
 1. Take input from user
 2. Get the year from the input
 3. Define the billboard url for the date
