@@ -30,5 +30,5 @@ List of projects:
 25. **Cheap Flight Finder**- Get's members to sign up. Sends mail to members if price of any of the locations fall below the lowest price listed in spreadsheet. Uses Sheety API and TEQUILA search and location API *(Day 39 + 40)*
 26. **Basic HTML site**- Uses basic HTML and CSS. Hosted on github pages.*(Day 42 + 43)*
 27.  **My personal site**- Uses intermediate HTML and CSS. *(Day 44)*
-28.  **100 must watch movies**- Makes a list of movies by webscrabing. Uses beautifulsoup. *(Day 45)*
+28.  **100 must watch movies**- Makes a list of must movies by web scraping. Uses beautifulsoup. *(Day 45)*
 29.  **Automatic Spotify playlist maker**- User inputs a date from any time in the last 30-40 yrs. Makes a playlist of billboards top 100 songs from that date (Ones available  on spotify). Uses BeautifulSoup for Web Parsing and Spotipy for working with spotify API. *(Day 46)*
