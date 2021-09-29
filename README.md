@@ -6,7 +6,7 @@ List of projects:
 1. **Hangman** - _(Day 7)_
 2. **Black Jack** - Card Game-  _(Day 11)_
 3. **Number Guessing Game**- 2 level (easy and hard) game in which user has to guess the number computer has randomly chosen. _(Day 12)_
-4. **Higher Lower Game** - Guess who has more followers between A and B. If guesses correctly B become A and new B is chosen randomly.  *(Day 14)*
+4. **Higher Lower Game** - Player has to guess which has more followers between A and B. If guesses correctly B become A and new B is chosen randomly. Game continues until player makes a wrong guess.  *(Day 14)*
 5. **Coffee Machine Project** - Imitates a coffee machine. *(Day 15)*
 6. **Quiz** - 20 T / F Questions using OOP. *(Day 17)*
 7. **Hirst Painting** - 10 * 10 grid of randomly colored dots (Using Turtle). *(Day 18)*
