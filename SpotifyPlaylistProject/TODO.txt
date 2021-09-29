@@ -2,7 +2,7 @@
 OBJECTIVES:
 1. To take user's input for the date they would like to travel to.
 2. Search billboard for the top 100 songs on that day.
-3. Make a playlist on spotofy and add the songs to the playlist.
+3. Make a playlist on spotify and add the songs(available) to the playlist.
 
 TODO:
 1. Take input from user
