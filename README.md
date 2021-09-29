@@ -5,7 +5,7 @@ Python projects made during the 100 days of Code. Some shorter challenges or pro
 List of projects:
 1. **Hangman** - _(Day 7)_
 2. **Black Jack** - Card Game-  _(Day 11)_
-3. **Number Guessing Game**- Computer chooses a number.User has to guess. 2 levels. _(Day 12)_
+3. **Number Guessing Game**- 2 level (easy and hard) game in which user has to guess the number computer has randomly chosen. _(Day 12)_
 4. **Higher Lower Game** - Guess who has more followers between A and B. If guesses correctly B become A and new B is chosen randomly.  *(Day 14)*
 5. **Coffee Machine Project** - Imitates a coffee machine. *(Day 15)*
 6. **Quiz** - 20 T / F Questions using OOP. *(Day 17)*
