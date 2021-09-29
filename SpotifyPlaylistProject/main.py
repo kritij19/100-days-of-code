@@ -4,8 +4,7 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
 # Getting the date the user wants to travel to
-date = input(
-    "What year you would like to travel to? Enter the date in the YYYY-MM-DD format:  ")
+date = input( "What year you would like to travel to? Enter the date in the YYYY-MM-DD format:  ")
 year = date.split("-")[0]
 
 # ---------------------------GETTING DATA FROM BILLBOARD--------------------------
@@ -27,8 +26,8 @@ top_songs = [tag.string for tag in top_songs_tags]
 
 # ----------------------MAKING PLAYLIST AND ADDING SONGS TO SPOTIFY-----------------
 
-Spotify_client_ID = "b3929749753c47c5a20926f2977466dc"
-Spotify_client_secret = "c9de30a005a64c85a02a05956ed8f1d8"
+Spotify_client_ID = ######
+Spotify_client_secret = ######
 
 # Authenticating user and getting token
 token = spotipy.util.prompt_for_user_token(id,
