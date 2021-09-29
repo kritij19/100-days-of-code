@@ -1,0 +1,16 @@
+
+OBJECTIVES:
+1. To take user's input for the date they would like to travel to.
+2. Search billboard for the top 100 songs on that day.
+3. Make a playlist on spotofy and add the songs to the playlist.
+
+TODO:
+1. Take input from user
+2. Get the year from the input
+3. Define the billboard url for the date
+4. Get song names from the url using beautiful soup.
+5. Authenticate your project with spotify for developers
+6. Using spotipy get token and user id
+7. Make a playlist with the name "[date] Billboard 100"
+8. Add all songs that can be found on spotify.
+9. Use exception handling for the cases when the song is not found on spotify 
