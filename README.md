@@ -1,5 +1,4 @@
 # 100_days_of_code
-
 Python projects made during the 100 days of Code. Some shorter challenges or projects have not been included.
 
 List of projects:
