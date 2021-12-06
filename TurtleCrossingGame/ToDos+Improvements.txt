@@ -9,6 +9,6 @@ TODOS:
 8. On collision, all cars should stop.
 9. Detect if turtle has reached the other end. If reached, reset and increase car speed now.
 
-PROBLEMS:
+IMPROVEMENTS:
 1. Detecting collision with car. Unable to find the right condition. Current condition has anomalies.
    Anomalies mostly due to the unsymmeteric shape of turtle.
